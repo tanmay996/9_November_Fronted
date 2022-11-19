@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AutoPlay>true</AutoPlay>
+            <DescSliding>true</DescSliding>
+            <GalleryName>lightbox</GalleryName>
+            <GalleryOptionID>1</GalleryOptionID>
+            <HoverStart>false</HoverStart>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEngine>jquery</ImageEngine>
+            <ImageHeight>768</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink>true</ImageShrink>
+            <ImageStretch>false</ImageStretch>
+            <ImageTemplate>12. Noir</ImageTemplate>
+            <ImageTemplateName>Noir</ImageTemplateName>
+            <ImageWidth>1024</ImageWidth>
+            <PublishFileName>C:/Users/tanma/OneDrive/Documents/VisualLightBox/index.html</PublishFileName>
+            <PublishIndex>index.html</PublishIndex>
+            <PublishPath>C:/Users/tanma/OneDrive/Documents/VisualLightBox</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelPaths>false</RelPaths>
+            <ResizeSpeed>7</ResizeSpeed>
+            <RightClick>false</RightClick>
+            <SlideShow>true</SlideShow>
+            <SlideShowDelay>4</SlideShowDelay>
+            <ThumbColumns>0</ThumbColumns>
+            <ThumbFitImage>false</ThumbFitImage>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>180</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbTemplate>Rotate</ThumbTemplate>
+            <ThumbTemplateName>Rotate</ThumbTemplateName>
+            <ThumbWidth>240</ThumbWidth>
+        </Settings>
+        <Images>
+            <Image>
+                <url>D:\TOPS\Html_Css\Html_tag\noneparetag\image\6.jpg</url>
+                <title>6</title>
+            </Image>
+            <Image>
+                <url>D:\TOPS\Html_Css\Html_tag\noneparetag\image\5.jpg</url>
+                <title>5</title>
+            </Image>
+            <Image>
+                <url>D:\TOPS\Html_Css\Html_tag\noneparetag\image\4.jpg</url>
+                <title>4</title>
+            </Image>
+            <Image>
+                <url>D:\TOPS\Html_Css\Html_tag\noneparetag\image\3.jpg</url>
+                <title>3</title>
+            </Image>
+            <Image>
+                <url>D:\TOPS\Html_Css\Html_tag\noneparetag\image\2.jpg</url>
+                <title>2</title>
+            </Image>
+            <Image>
+                <url>D:\TOPS\Html_Css\Html_tag\noneparetag\image\1.jpg</url>
+                <title>1</title>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
