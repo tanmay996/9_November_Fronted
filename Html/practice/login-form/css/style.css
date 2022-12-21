@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+.login-form{
+    width:100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+
+}
+.form{
+    width:65%;
+    height: 800px;
+    
+    font-size:xx-large;
+    margin-top: 10%;
+}
+.form h1{
+    font-weight:bolder;
+}
+.form h4{
+    font-weight: lighter
+}
+
+.form span{
+    font-size:25px;
+}
+.form ul li{
+    height:50px;
+    width:50px;
+    background-color:#46546e;
+    display: inline-block;
+    text-align: center;
+    border-radius: 100%;
+}
+.google-icon{
+    height:50px;
+    width:50px;
+    text-align: center;
+    border-radius: 100%;
+    background-color:#e0483d;
+}
+.form ul li a{
+    color: #fff;
+}
+.form ul li a span{
+    margin-top: 13px;
+}
+fieldset{
+    border-left: none;
+    border-right:none;
+    border-bottom:none;
+    width: 30%;
+    border-top-color:#ccf1e5;
+
+}
+fieldset legend{
+    font-size: 17px;    
+}
+fieldset form input{
+    width: 500px;
+    height:50px;
+    border-radius: 45px;
+    background-color: #ccf1e5;
+    padding-left: 20px;
+    font-size: 20px;
+    border: none;
+
+}
+.sign-up{
+    width: 42%;
+    height: 800px;
+    color:white;
+    padding-top: 15%;
+    font-size:xx-large;
+    background: linear-gradient(90deg, rgba(19,207,106,1) 0%, rgba(0,212,255,1) 100%, rgba(2,0,36,1) 100%);
+}
+form button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: #29b59a;
+}
+
+.sign-up button{
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    border:none;
+    border-radius: 30px;
+}

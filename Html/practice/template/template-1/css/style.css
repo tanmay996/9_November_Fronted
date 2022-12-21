@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    overflow-x:hidden;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.header-info{
+    height: 30px;
+   
+    background-color: #00796a;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 15px;
+    color: white;
+    display: flex;
+}
+.header h3{
+    font-size:x-large;
+    letter-spacing: 2px;
+}
+.header-info a{
+    text-decoration: none;
+    color: white;
+}
+.social-media{
+    margin-left: 67%;
+    letter-spacing: 10px;
+}
+.header{
+    height: 80px;
+  
+    display: flex;
+    color:white;
+    padding-left: 100px;
+    background-color: #008375;
+  
+}
+.header h3 span{
+    color: red;
+}
+.header-containt{
+    margin-left: 37%;
+    padding-top: 25px;
+}
+.header-containt a{
+    color: white;
+    margin-left: 40px;
+    letter-spacing: 1px;
+    font-weight:bolder;
+    text-decoration: none;
+}
+.containor{
+    height:600px;
+    width: 100%;
+    color: white;
+    background-color: #008375;
+    display: flex;
+}
+
+.detail{
+    padding-left: 60px;
+}
+.detail button{
+    height: 50px;
+    width: 180px;
+    color: white;
+    font-size:large;
+    border-radius: 30px;
+    border-color: lightseagreen;
+    background-color:#008375;
+    margin-top: 10px;
+}
+
+.detail a span{
+    font-size:xx-large;
+    margin-left: 30px;
+}
+.detail h1{
+    font-weight:bolder;
+    font-size:xx-large;
+    
+}
+.detail p{
+    text-align: center;
+}
+.detail,.image-board{
+    height: 100%;
+    width:50%;
+   
+}
+.image-board img{
+    height: 350px;
+    width:600px;
+}
+.sub-containor{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    margin-top: -120px;
+    padding-left:20%;
+   
+}
+.card{
+    width: 250px;
+    height: 160px;
+    color: white;
+    padding-top: 90px;
+    border-radius: 10px;
+    margin-left: 30px;
+    letter-spacing: 2px;
+    background-color:#039182;
+    box-shadow: 0 10px 15px -5px rgb(9 31 67 / 100%);
+    
+   
+}
+
+.fa-desktop,.fa-diamond,.fa-map-marker,.fa-copyright{
+    font-size: 30px;
+
+}
+
+
+/* after hover effect */
+.header-containt a:hover{
+    color: white;
+    text-decoration:underline;
+    text-decoration-color: red;
+}

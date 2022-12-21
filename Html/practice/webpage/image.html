@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            overflow-y: hidden;
+            background: url('image/wallpaper.jpg');
+        }
+        .main_container{
+            padding: 50px;
+        }
+        .container{
+            position: relative;
+            height: 300PX;
+            width:400PX;
+            display: inline-block;
+            border-radius: 10px;
+            border: 2px solid red;
+            margin: 20px;
+            
+        }
+      .image{
+            display: block;
+            height: 300PX;
+            width:400px ;
+            border-radius: 10px;
+
+      }
+      .overlay{
+            position: absolute;
+            opacity: 0;
+            
+
+      }
+      .text{
+        color:white;
+        font-family: sans-serif;
+        position: absolute;
+        top: 50%;
+        left:50%;
+        font-size: 20px;
+      }
+      .overlayleft{
+        height: 100%;
+        width: 0;
+        top:0;
+        left: 0;
+      }
+      .container:hover .overlay{
+        width: 100%;
+        opacity: 1;
+      }
+      .container:hover{
+        opacity: 0.6;
+      }
+     
+   
+    </style>
+</head>
+<body>
+    <h1 align="center">Gallery</h1>
+
+        <!-- main container -->
+        <div align="center" class="main_container">
+
+            <!-- image container -->
+
+                <div class="container">               
+                    <img class="image" src="image/1.jpg">
+                    <div class="overlay overlayleft"> 
+                        <div class="text">Gaming</div>
+                    </div>
+                </div>
+
+                <div class="container">               
+                    <img class="image" src="image/2.jpg">
+                    <div class="overlay overlayleft"> 
+                        <div class="text">Gaming</div>
+                    </div>
+                </div>
+
+                <div class="container">               
+                    <img class="image" src="image/3.jpg">
+                    <div class="overlay overlayleft"> 
+                        <div class="text">Gaming</div>
+                    </div>
+                </div>
+
+                <div class="container">               
+                    <img class="image" src="image/4.jpg">
+                    <div class="overlay overlayleft"> 
+                        <div class="text">Gaming</div>
+                    </div>
+                </div>
+                <div class="container">               
+                    <img class="image" src="image/5.jpg">
+                    <div class="overlay overlayleft"> 
+                        <div class="text">Gaming</div>
+                    </div>
+                </div>
+               
+
+        </div>  
+
+                
+             
+        
+   
+    
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: url(image/wallpaper.jpg);
+            
+        }
+        .image{
+            position: relative;
+            height:auto;
+            width:auto;
+            
+            padding-left: 100px;
+            border: 2px solid red;
+        }
+        .image__img{
+            height: 300px;
+            width: 500px;
+            border-radius: 10px;
+            
+
+            
+        }
+        .image__overlay{
+            position:absolute;
+            top: 0;
+            
+           height: 300px;
+           width: 500px;
+            opacity: 0;
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
+           
+        }
+        .image__img:hover{
+            opacity: 0.3;
+        }
+        .image__overlay:hover{
+            opacity: 1;
+        }
+        #second_img{
+            height: 300px;
+            width: 500px;
+            border-radius: 10px;
+        }
+        
+       
+        
+        
+    </style>
+</head>
+<body>
+    <h1 align="center">Gallery</h1>
+    <div class="image">
+        <div class="image__container">
+            <img class=image__img src="image/1.jpg">
+             <img id="second_img" src="image/2.jpg">
+            <img class=image__img src="image/5.jpg">
+        <center> <img class=image__img src="image/3.jpg">
+            <img class=image__img src="image/4.jpg">
+        </center>   
+        </div>
+            <div class="image__overlay">
+                <div class="text">
+                <h1> Gaming</h1>
+               
+                </div>
+            </div>
+
+    </div>
+
+        
+        
+    
+    
+
+        
+   
+    
+</body>
+</html> --> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- 
+
+        
+       
+        #second_img{
+            height: 300px;
+            width: 500px;
+            border-radius: 10px;
+        }
+        -->
+        
+       

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <style>
+        body{
+            background-color:#283048;
+        }
+
+
+        fieldset{
+            
+            height:auto;
+            width: 25%;
+            margin: auto;
+            background-color: lightblue;
+             /* background-image: linear-gradient(to right,rgb(117, 80, 80),yellow,yellowgreen);*/
+            border-color: blue;
+            border-radius: 10px;
+        }
+        legend{
+            border-radius: 5px;
+            font-size: xx-large;
+            background-color: #ffff00;
+        }
+        input{
+            border: solid;
+            border-radius: 5px;
+            border-color:blue;
+            border-bottom: solid 2px black;
+            border-top: solid 2px black;
+            padding: 10px;
+        }
+        select{
+            border: solid;
+            border-radius: 5px;
+            border-color:blue;
+            border-bottom: solid 2px black;
+            border-top: solid 2px black;
+        }
+       
+        form{
+            padding: 20px;
+        }
+        b{
+            font-size: larger;
+            color: #0000ff;
+        }
+        label{
+            color:blue;
+            font-size: larger;
+            font-weight: 200;
+        }
+
+        input[type=submit]{
+            background-color: yellowgreen;
+            border: none;
+            height: 35px;
+            width: 100px;
+
+        }
+        input[type=reset]{
+            background-color:red;
+            border: none;
+            height: 35px;
+            width: 100px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+
+    <fieldset >
+        <legend align="center">Registration Form</legend>
+
+    <form>
+
+        <i class="fa fa-user"></i>
+        <label>First Name</label>
+        <input type="text" name="fname" placeholder="Enter your First Name" required style="margin-left:60px">
+        <br><br>
+
+        <i class="fa fa-user"></i>
+        <label>Last Name</label>
+        <input type="text" name="lname" placeholder="Enter your Last Name" required style="margin-left:60px">
+        <br><br>
+
+        <i class="fa fa-envelope"></i>
+        <label >Email-ID</label>
+        <input type="text" name="Email-ID"placeholder="Enter your Email-ID" required style="margin-left:70px">
+        <br><br>
+
+        <i class="fa fa-globe"></i>
+        <label >Select City</label>
+        <select required style="margin-left:60px;width:150px;height:25px">
+            <option>Mumbai</option>
+            <option>Pune</option>
+            <option>Kolkata</option>
+        </select>
+        <br><br>
+
+        <i class="fa fa-picture-o"></i>
+        <label>Upload Photo</label>
+        <input type="file" name="image" style="margin-left:35px;width:180px" >
+        <br><br>
+
+
+        <label>Gender</label>
+        <i class="fa fa-male" style="margin-left: 100px;" ></i>
+        <b >Male</b><input type="radio" name="male" value="male">
+        <i class="fa fa-female" ></i>
+        <b>Female</b><input type="radio" name="male" value="male">
+        <br><br>
+
+        <i class="fa fa-gamepad" aria-hidden="true"></i>
+        <label>Select Games</label>
+        <b style="margin-left: 30px;">GTA-V</b>
+        <input type="checkbox" name="GTA-V">
+        <b style="margin-left: 5px;">BGMI</b>
+        <input type="checkbox" name="BGMI">
+        <b style="margin-left: 5px;">Valorant</b>
+        <input type="checkbox" name="Valorant">
+        <br><br>
+
+        <i class="fa fa-calendar-o"></i>
+        <label>Choose DOB</label>
+        <input type="date" name="dob" required style="margin-left:40px">
+        <br><br>
+
+        <i class="fa fa-unlock-alt"></i>
+        <label>Password</label>
+        <input type="password" name="fname"placeholder="Enter your Password" required style="margin-left:70px">
+        <br><br>
+
+        <i class="fa fa-unlock-alt" ></i>
+        <label>Confirm-Password</label>
+        <input type="password" name="fname"placeholder="Confirm your Password">
+        <br><br>
+
+        <div align="center">
+        <input type="submit" name="reg" value="Register" >
+        <input type="reset"  value="Reset">
+        </div>
+        <br><br>
+        
+        
+    </form>
+    </fieldset>
+    
+</body>
+</html>

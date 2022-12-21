@@ -5,33 +5,56 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/font-awesome.css">
+
     <style>
         body{
-            background-color: seagreen;
+            margin:0;
+            padding:0;
         }
-        div{
-            margin-left: 200px;
-            padding-top: 7px
-        }
-        a{
+        .nav{
+            height:70px;
+            width: auto;
+            padding-left: 10%;
+            background-color: #071048;
             
-           font-size:larger;
-           text-decoration:none;
-           padding-left: 50px;
-           color:black;
         }
+       
+        a{
+           font-size:large;
+           text-decoration:none;
+           padding: 30px;
+            color: aliceblue;
+            
+         }
+         a:hover{
+            background-color:	#191970 ;
+         }
+        .fa-home{
+            font-size: 32px;
+        }
+        .anchr_nav{
+            padding-top: .8%
+        }
+        
     </style>
 </head>
 <body>
-    <div>
-    <a href="HTML.html" target="abc">HTML</a>
-    <a href="css.html" target="abc">CSS</a>
-    <a>JAVASCRIPT</a>
-    <a>SQL</a>
-    <a>PYHTON</a>
-    <a>JAVA</a>
-    <a>PHP</a>
-    <a>BOOTSTRAP</a>
-</div>
+    
+        <div class="nav">
+            <div class="anchr_nav">
+            <a href="HTML.html" target="abc"><i class="fa fa-home" aria-hidden="true"></i></a>
+            <a href="HTML.html" target="abc">HTML</a>
+            <a href="css.html" target="abc">CSS</a>
+            <a>JAVASCRIPT</a>
+            <a>SQL</a>
+            <a>PYHTON</a>
+            <a>JAVA</a>
+            <a>PHP</a>
+            <a>BOOTSTRAP</a>
+        </div>
+        </div>
+    
+
 </body>
 </html>

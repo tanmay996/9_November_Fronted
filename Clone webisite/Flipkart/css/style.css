@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* Before stylesheet */
+body{
+    margin: 0;
+    padding: 0;
+    
+    overflow-x: hidden;
+}
+.header{
+    width:100%;
+    height:65px;
+    background-color: #2874f0;
+    position: fixed;
+    
+
+}
+.header-containt{
+    padding-left: 20%;
+    padding-top: 20px;
+    display: flex;
+    z-index: 4;
+
+}
+.logo{
+    height:20px;
+    width:75px;
+
+}
+.bottom-logo {
+   
+    color:white;
+    font-size:12px;   
+}
+
+.header-logo a{
+    text-decoration: none;
+}
+
+.header-logo a i span{
+    color: yellow;
+}
+
+.plus-logo{
+    height:15px;
+}
+.header-conatiner,.header-input{
+    display: flex;
+}
+
+.header-input input{
+    width: 500px;
+    height:30px;
+    padding-left: 10px;
+    margin-left: 7px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+.header-part{
+    margin-top: 3px;
+}
+
+.header-conatiner a{
+    color: white;
+    font-size:large;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+
+}
+.fa-search{
+    
+    background-color:white;
+    height:27px;
+    width: 30px;
+    color: #2874f0;
+    padding-top: 5px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    
+}
+.login-btn button{
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    color: #2874f0;
+    width: 125px;
+    height:30px;
+    font-size:medium;
+    font-weight: bold;
+}
+.header-part{
+    display: flex;
+}
+.header-conatiner button, .header-part a{
+    margin-left: 40px;
+}
+
+.product-item{
+    width:100%;
+    height:120px;
+    background-color: white;
+    display: flex;
+    padding-left: 15%;
+    padding-top:65px;;
+ 
+}
+.product-item img{
+    height: 60px;
+    width: 60px; 
+}
+.product-subitem{
+    width:100px;
+    height:97px;
+    font-weight:600;
+    font-family: 'Mukta', sans-serif;
+    padding-top: 20px;
+    margin-left: 30px;
+   
+    
+}
+.product-subitem a{
+    color: black;
+    text-decoration: none;
+}
+.product{
+    background-color: #f1f3f6;
+    padding-bottom: 50px;
+}
+.product-container{
+    display: flex;
+    background-color:white;
+    height: 300px;
+    width:85%;
+    margin-left:7%;
+}
+/* Slider stylesheet */
+.slider{
+    background-color:purple;
+}
+.slide{
+  align-self:center;
+  margin:auto;
+
+}
+#slide img{
+    height: 280px;
+    width:1600px;
+}
+.left-advertisment{
+    height:100%;
+    width:15%;
+   
+}
+.left-bar{
+    padding:15%;
+    font-family: 'Mukta', sans-serif;
+}
+.left-bar button{
+    height:45px;
+    width:120px;
+    color: white;
+    background-color: #2874f0;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Mukta', sans-serif;
+}
+.sub-products{
+    height:277px;
+    width:15%;
+   
+   padding-top: 20px;
+   font-family: 'Mukta', sans-serif;
+   font-size:small;
+}
+.product-offers{
+   
+    color: #6f8e3c;
+}
+.product-info{
+    color:lightgray;
+  
+}
+.product-brand{
+    font-weight: bold;
+}
+/* footer css */
+.footer{
+    width: 100%;
+    height: 300px;
+    background-color: #172337;  
+    display:flex;
+    
+}
+.footer-about{
+    
+    height:268px;
+    width:12.5%;
+    padding-top: 30px;
+    padding-left:5px;
+    margin-left: 10px;
+    font-family: 'Mukta', sans-serif;
+}
+.footer-about ul{
+    color: grey;
+    list-style: none;
+    
+
+}
+.footer-about ul p{
+    color:white;
+    font-size:small;
+    letter-spacing: 1px;
+    font-family: 'Mukta', sans-serif;
+    margin-top: -2px;
+    
+
+}
+.footer-about ul li{
+    padding : 5px 5px;
+}
+
+.footer-about ul a{
+    text-decoration: none;
+    color: white;
+    font-size:small;
+   
+}
+.footer-adv{
+    width:100%;
+    height:75px;
+    background-color: #172337;
+}
+.footer-about ul p a{
+    color:#2874f0;
+}
+.footer-line{
+    height:160px;
+    margin-top: 3%;
+    border: 1px solid grey; 
+}
+
+/* after Hover stylesheet */
+
+
+
+.product-subitem :hover{
+    color: #2874f0;
+}
+.product-subitem:hover i{
+    transition: 100ms;
+    transform: rotate(180deg);
+}
+
+
+.header-logo a:hover{
+    text-decoration:underline;
+    text-decoration-color: white;
+}
+.sub-products:hover img{
+
+    transform: scale(1.1);
+    
+}
+.footer-about a:hover{
+    text-decoration: underline;
+}

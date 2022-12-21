@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&family=Poppins:wght@300&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}   
+.main{
+    width: 1918;
+    height: 1005px;
+    background-color: #004C54;
+}
+.container{
+    width:1200px;
+    height: 750px;
+    display: flex;
+    padding: 100px 350px;
+}
+.right-container{
+    width:65%;
+    height:100%;
+    background-color:white;
+
+}
+.left-container{
+    width:35%;
+    height: 100%;
+    
+    background-color: #1aeab6;
+}
+.form-container{
+    width:50%;
+    height: 550px;
+    display: flex;
+    position: absolute;
+    margin: 100px 100px;
+    box-shadow: 0px 0px 15px -10px rgb(9 31 67 / 100%);
+}
+.left-form-container{
+    width:36.5%;
+    height: 100%;
+    
+    background-color: #1aeab6;
+}
+.left-form-container img{
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.left-form-container p{
+    font-size:20px;
+    margin-left: 80px;
+}
+.right-form-container{
+    width:73.5%;
+    height:100%;
+    font-size: large;
+    background-color:white;
+}
+.right-form-container a{
+    text-decoration: none;
+    color: black;
+    margin-left: 550px;
+    font-weight: bold;
+}
+fieldset{
+    padding-left: 60px;
+    border: none;
+}
+
+.form{
+    padding-top: 50px;
+    padding-left: 50px;
+}
+form{
+    padding-top: 40px;
+}
+form input{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+form label , legend{
+    font-size:20px;
+  
+
+}
+
+form input{
+    height:40px;
+    width: 400px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border-color: #1aeab6;
+}
+form button{
+    height:50px;
+    width: 350px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 45px;
+    background-color: #1aeab6;
+}
+.form a{
+    margin-left: 275px;
+}
