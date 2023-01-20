@@ -21,7 +21,15 @@
             // $("#slide").cycle("shuffle");
 
             //  $("#slide").cycle("turnRight,shuffle,turnLeft,turnRight,zoom");
+            $("#login").click(function () {
+
+                $(".flipkart-login").slideToggle(500)
+
+            })
+           
+          
         })
+       
     </script>
 </head>
 
@@ -46,7 +54,7 @@
                             class="fa fa-search"></span></a>
                 </div>
                 <div class="login-btn">
-                    <button>Login</button>
+                    <button id="login">Login</button>
                 </div>
                 <div class="header-part">
                     <a href="#">Become a Seller</a>
@@ -58,6 +66,7 @@
         </div>
 
     </div>
+
 
     <!-- product item of flipkart -->
 
@@ -82,11 +91,20 @@
         </div>
 
 
-        <div class="product-subitem">
+        <div class="product-subitem" id="drop-down-menu">
             <a href="#"><img src="image/Fashion.webp" alt="Fashion" title="Fashion">
                 <br>
                 <span>Fashion</span>
                 <i class="fa fa-angle-down"></i>
+                <div class="fashion-menu">
+                    <ul>
+                        <li>Men's Top Wear</li>
+                        <li>Men's Top Wear</li>
+                        <li>Men's Top Wear</li>
+                        <li>Men's Top Wear</li>
+                        <li>Men's Top Wear</li>
+                    </ul>
+                </div>
             </a>
         </div>
 
@@ -156,7 +174,7 @@
     <!-- Product-container -->
     <div class="product">
         <br>
-
+<!-- 
         <div class="product-container slider">
             <div id="slide" class="slide">
                 <img src="image/banner/banner1.jpg">
@@ -164,7 +182,7 @@
                 <img src="image/banner/banner3.webp">
             </div>
 
-        </div>
+        </div> -->
         <br>
 
         <div class="product-container">
@@ -442,7 +460,39 @@
     </div>
 
 
+    <!-- flipkart login form -->
+    <div class="flipkart-login flipkart-login-page">
+        <div class="login-content">
+            <div class="flipkart-login-text">
+                <h1>Login</h1>
+                <p>Get access to your<br> Orders, Wishlist <br>and Recommendations</p>
+                <img src="image/login-img.jpg">
+            </div>
+            <div class="flipkart-login-form">
+                <label>Enter Email/Mobile number</label><br>
+                <input type="text"><br>
+                <label>Enter your Password</label><br>
+                <input type="text">
+                <br><br>
+                <a class="form-anchortag" href="#">Forgot?</a>
+                <br><br>
+                <span class="flipkart-terms-privacy">By continuing, you agree to Flipkart's <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a
+                        href="https://www.flipkart.com/pages/terms">Terms of Use </a>and <a
+                        href="https://www.flipkart.com/pages/privacypolicy">Privacy Policy.</a></span><br>
+                <button>Login</button>
+                <br><br>
+                <span class="flikart-OR-bottom-login">OR</span>
+                <br>
+                <button>Request OTP</button>
 
+                <div class="flipkart-new-account">
+                    <a href="#">New to Flipkart?Create an account</a>
+                </div>
+            </div>
+            <span class="fa fa-times"></span>
+        </div>
+    </div>
 
 
 
@@ -451,73 +501,125 @@
     <!-- Flipkart footer -->
     <div class="footer">
         <div class="footer-about">
-           
+
             <ul>
                 <li><span></span>ABOUT</span></li><br>
-                <a href="#"><li>Contact Us</li></a>
-                <a href="#"><li>About Us</li></a>
-                <a href="#"><li>Careers</li></a>
-                <a href="#"><li>Flipkart Stories</li></a>
-                <a href="#"><li>Press</li></a>
-                <a href="#"><li>Flipkart Wholesale</li></a>
-                <a href="#"><li>Corporate Information</li></a>
+                <a href="#">
+                    <li>Contact Us</li>
+                </a>
+                <a href="#">
+                    <li>About Us</li>
+                </a>
+                <a href="#">
+                    <li>Careers</li>
+                </a>
+                <a href="#">
+                    <li>Flipkart Stories</li>
+                </a>
+                <a href="#">
+                    <li>Press</li>
+                </a>
+                <a href="#">
+                    <li>Flipkart Wholesale</li>
+                </a>
+                <a href="#">
+                    <li>Corporate Information</li>
+                </a>
             </ul>
         </div>
 
         <div class="footer-about">
-           
+
             <ul>
                 <li><span></span>HELP</span></li><br>
-                <a href="#"><li>Payment</li></a>
-                <a href="#"><li>Shipping</li></a>
-                <a href="#"><li>Cancellation & Return</li></a>
-                <a href="#"><li>FAQ</li></a>
-                <a href="#"><li>Report Infringement</li></a>
-                
+                <a href="#">
+                    <li>Payment</li>
+                </a>
+                <a href="#">
+                    <li>Shipping</li>
+                </a>
+                <a href="#">
+                    <li>Cancellation & Return</li>
+                </a>
+                <a href="#">
+                    <li>FAQ</li>
+                </a>
+                <a href="#">
+                    <li>Report Infringement</li>
+                </a>
+
             </ul>
         </div>
 
         <div class="footer-about">
-           
+
             <ul>
                 <li><span></span>POLICY</span></li><br>
-                <a href="#"><li>Return Policy</li></a>
-                <a href="#"><li>Term of Use</li></a>
-                <a href="#"><li>Security</li></a>
-                <a href="#"><li>Privacy</li></a>
-                <a href="#"><li>Sitemap</li></a>
-                <a href="#"><li>EPR Compliance</li></a>
-                
+                <a href="#">
+                    <li>Return Policy</li>
+                </a>
+                <a href="#">
+                    <li>Term of Use</li>
+                </a>
+                <a href="#">
+                    <li>Security</li>
+                </a>
+                <a href="#">
+                    <li>Privacy</li>
+                </a>
+                <a href="#">
+                    <li>Sitemap</li>
+                </a>
+                <a href="#">
+                    <li>EPR Compliance</li>
+                </a>
+
             </ul>
         </div>
         <div class="footer-about">
-           
+
             <ul>
                 <li><span></span>HELP</span></li><br>
-                <a href="#"><li>Payment</li></a>
-                <a href="#"><li>Shipping</li></a>
-                <a href="#"><li>Cancellation & Return</li></a>
-                <a href="#"><li>FAQ</li></a>
-                <a href="#"><li>Report Infringement</li></a>
-                
+                <a href="#">
+                    <li>Payment</li>
+                </a>
+                <a href="#">
+                    <li>Shipping</li>
+                </a>
+                <a href="#">
+                    <li>Cancellation & Return</li>
+                </a>
+                <a href="#">
+                    <li>FAQ</li>
+                </a>
+                <a href="#">
+                    <li>Report Infringement</li>
+                </a>
+
             </ul>
         </div>
         <div class="footer-about">
-           
+
             <ul>
                 <li><span></span>SOCIAL</span></li><br>
-                <a href="https://www.facebook.com/"><li>Facebook</li></a>
-                <a href="https://twitter.com/"><li>Twitter</li></a>
-                <a href="https://youtube.com/"><li>Youtube</li></a>
-              
-                
+                <a href="https://www.facebook.com/">
+                    <li>Facebook</li>
+                </a>
+                <a href="https://twitter.com/">
+                    <li>Twitter</li>
+                </a>
+                <a href="https://youtube.com/">
+                    <li>Youtube</li>
+                </a>
+
+
             </ul>
         </div>
         <div class="footer-line">
-             
+
         </div>
         <div class="footer-about">
-           
+
             <ul>
                 <li><span>Mail Us:</span></li><br>
                 <p>
@@ -528,35 +630,35 @@
                     Bengaluru, 560103,<br>
                     Karnataka, India
                 </p>
-                
-                
+
+
             </ul>
         </div>
         <div class="footer-about">
-           
+
             <ul>
                 <li><span>Registered Office Address:/</span></li><br>
                 <p>
                     Flipkart Internet Private Limited,<br>
-                    Buildings Alyssa, Begonia &<br>      
-                    Clove Embassy Tech Village,<br>   
-                    Outer Ring Road, Devarabeesanahalli Village,<br>                    
-                    Bengaluru, 560103,<br>                    
-                    Karnataka, India<br>                    
-                    CIN : U51109KA2012PTC066107<br>                    
+                    Buildings Alyssa, Begonia &<br>
+                    Clove Embassy Tech Village,<br>
+                    Outer Ring Road, Devarabeesanahalli Village,<br>
+                    Bengaluru, 560103,<br>
+                    Karnataka, India<br>
+                    CIN : U51109KA2012PTC066107<br>
                     Telephone: <a href="#">044-45614700</a><br>
                 </p>
-                
-                
+
+
             </ul>
         </div>
-        
+
     </div>
-    
+
     <div class="footer-adv">
 
     </div>
-    
+
 
 </body>
 

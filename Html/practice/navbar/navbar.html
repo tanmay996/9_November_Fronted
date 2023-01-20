@@ -15,14 +15,16 @@
             background-color:aqua;
             position: fixed;
             width: 100%;
-            height: auto;
+            height: 100px;
             margin: 0;
             padding: 0;
             z-index: 1;
         }
-        li{
-            display: inline-block;
-            padding-left: 50px;
+        
+        .navbar li{
+            display:inline-block;
+            padding: 20px;
+           
         }
         img{
             height:400px;
@@ -32,46 +34,56 @@
         }
         .img{
         
-          margin-top:4.7em;
+          margin-top:6em;
           position: absolute;
           z-index: 2;
             
+        }
+        .navbar ul li:hover{
+           
+            background-color: red;
+        }
+        .dropdwn{
+            position: relative !important;
+            text-align: left !important;
+        }
+        .dropdwn-menu{
+            display: none;
+            position: absolute;
+           top: 50px;
+           right: 10px;
+        }
+      
+        .dropdwn:hover .dropdwn-menu{
+            display: block;
+           
         }
         
     </style>
 </head>
 <body>
-    <div>
+  
         <div class="navbar">
         <ul>         
             <li>HELLO</li>
             <li>I</li>
             <li>AM</li>
-            <li>TESTING</li>
+            <li class="dropdwn">TESTING
+                <div class="dropdwn-menu">
+                    <ul>         
+                        <li>section1</li><br>
+                        <li>section1</li><br>
+                        <li>section1</li><br>
+                        <li>section1</li> 
+                    </ul>
+                </div>
+            </li>
+           
             <li>RELATIVE</li>
             <li>AND</li>
             <li>ABSULUT</li>     
         </ul>
     </div>
-    <div class="img" >
-        <img src="image/1.jpg" >
-        <img src="image/2.jpg" >
-        <img src="image/3.jpg" >
-        <img src="image/4.jpg" >
-        <img src="image/5.jpg" >
-        <img src="image/6.jpg" >
-        <img src="image/1.jpg" >
-        <img src="image/1.jpg" >
-        <img src="image/2.jpg" >
-        <img src="image/3.jpg" >
-        <img src="image/4.jpg" >
-        <img src="image/5.jpg" >
-        <img src="image/6.jpg" >
-        <img src="image/1.jpg" >
-        
-        
-    </div>
-</div>
     
 </body>
 </html>

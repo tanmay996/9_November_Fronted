@@ -11,14 +11,14 @@ body{
     height:65px;
     background-color: #2874f0;
     position: fixed;
-    
+    z-index: 5;
 
 }
 .header-containt{
     padding-left: 20%;
     padding-top: 20px;
     display: flex;
-    z-index: 4;
+    
 
 }
 .logo{
@@ -66,6 +66,7 @@ body{
     font-weight: bold;
     text-decoration: none;
     display: flex;
+   
 
 }
 .fa-search{
@@ -95,6 +96,7 @@ body{
 .header-conatiner button, .header-part a{
     margin-left: 40px;
 }
+
 
 .product-item{
     width:100%;
@@ -137,15 +139,17 @@ body{
 /* Slider stylesheet */
 .slider{
     background-color:purple;
+ 
 }
 .slide{
-  align-self:center;
+
   margin:auto;
 
 }
 #slide img{
     height: 280px;
     width:1600px;
+ 
 }
 .left-advertisment{
     height:100%;
@@ -168,7 +172,6 @@ body{
 .sub-products{
     height:277px;
     width:15%;
-   
    padding-top: 20px;
    font-family: 'Mukta', sans-serif;
    font-size:small;
@@ -239,6 +242,117 @@ body{
     margin-top: 3%;
     border: 1px solid grey; 
 }
+/* flipkart login page styles */
+.flipkart-login{
+    top:0;
+    
+    height:100%;
+    width: 100%;
+    margin-top: 65px;
+    position: absolute;
+    display: none;
+    /* display: flex; */
+    z-index: 5 !important;
+    
+    padding-top: 50px;
+    padding-left: 30%;
+    background-color: rgba(0,0,0,0.3);
+}
+.login-content{
+    display: flex;
+    flex-direction: row;
+}
+.flipkart-login-text{
+    width: 230px;
+    height: 480px;
+    color: white;
+    padding-top:20px;
+    padding-left:30px;
+    font-family: 'Mukta', sans-serif;
+    background-color:#2874f0;
+}
+.flipkart-login-text img{
+  margin-top: 130px;
+}
+.flipkart-login-form{
+    width: 410px;
+    height: 450px;
+    padding-top: 50px;
+    position: relative;
+   
+    background-color:white;
+    font-family: 'Mukta', sans-serif;
+}
+.flipkart-login-form label{
+    color:grey;
+    margin-left: 50px;
+}
+.flipkart-login-form input{
+    border: 1px solid #2874f0;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+    margin-left: 50px;
+    width: 300px;
+}
+.flipkart-login-form span{
+    color:grey;
+}
+.flipkart-login-form a{
+    color: #2874f0;
+} 
+.form-anchortag{
+    padding-left: 300px;
+    color: #2874f0;
+}
+.flipkart-terms-privacy{
+    margin-top: 10px;
+    padding: 50px;
+}
+.flipkart-login-form button{
+    height: 45px;
+    width:350px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left: 30px;
+    background: #fb641b;
+}
+.flikart-OR-bottom-login{
+    margin-left: 190px;
+}
+.flipkart-new-account{
+    color: #2874f0;
+    margin-top: 40px;
+    padding-left: 70px;
+    font-size: 15px;
+    
+}
+.flipkart-new-account a{
+    text-decoration: none;
+}
+.fa-times{
+    color: white;
+    font-size: xx-large;
+}
+.fashion-menu{
+    display: none;
+    width: 250px;
+    height: auto;   
+    z-index: 5 !important;
+    background-color: pink;
+}
+.fashion-menu li{
+ 
+    margin-bottom:10px;
+    
+    list-style-type: none;
+}
+
+
+
 
 /* after Hover stylesheet */
 
@@ -250,6 +364,9 @@ body{
 .product-subitem:hover i{
     transition: 100ms;
     transform: rotate(180deg);
+}
+#drop-down-menu:hover .fashion-menu{
+    display: block;
 }
 
 

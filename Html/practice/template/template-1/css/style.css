@@ -28,11 +28,14 @@ body{
     margin-left: 67%;
     letter-spacing: 10px;
 }
+.fa-play-circle-o{
+    font-size:40px;
+    margin-top: 10px;
+    color: white;
+}
 .header{
     height: 80px;
-  
     display: flex;
-    color:white;
     padding-left: 100px;
     background-color: #008375;
   
