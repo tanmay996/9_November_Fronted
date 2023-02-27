@@ -8,8 +8,8 @@
     <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books More. Best Offers!
     </title>
     <link rel="icon" href="image/logo.ico">
-    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src='https://code.jquery.com/jquery-3.6.2.min.js'></script>
     <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
     <script>
@@ -26,6 +26,9 @@
                 $(".flipkart-login").slideToggle(500)
 
             })
+            $(".fa-times").click(function(){
+                $(".flipkart-login").slideUp()
+            })
            
           
         })
@@ -40,7 +43,7 @@
         <div class="header-containt">
 
             <div class="header-logo">
-                <a href="#"><img class="logo" src="image/flipkart-logo.png"></a>
+                <a href="index.html"><img class="logo" src="image/flipkart-logo.png"></a>
                 <br>
 
                 <a href="#"><i class="bottom-logo">Explore <span>Plus</span></i>&nbsp;<img class="plus-logo"
@@ -96,15 +99,15 @@
                 <br>
                 <span>Fashion</span>
                 <i class="fa fa-angle-down"></i>
-                <div class="fashion-menu">
-                    <ul>
+                
+                    <ul class="fashion-menu">
                         <li>Men's Top Wear</li>
                         <li>Men's Top Wear</li>
                         <li>Men's Top Wear</li>
                         <li>Men's Top Wear</li>
                         <li>Men's Top Wear</li>
                     </ul>
-                </div>
+               
             </a>
         </div>
 
@@ -174,17 +177,17 @@
     <!-- Product-container -->
     <div class="product">
         <br>
-<!-- 
-        <div class="product-container slider">
+
+        <div class="product-container-slider">
             <div id="slide" class="slide">
                 <img src="image/banner/banner1.jpg">
                 <img src="image/banner/banner2.jpg">
                 <img src="image/banner/banner3.webp">
             </div>
 
-        </div> -->
+        </div>
         <br>
-
+        <!-- Tops deals of offer -->
         <div class="product-container">
             <div class="left-advertisment">
                 <div class="left-bar" align="center">
@@ -252,11 +255,12 @@
 
         </div>
         <br>
+        <!-- Fashion Top Deals -->
         <div class="product-container">
             <div class="left-advertisment">
                 <div class="left-bar" align="center">
                     <div>
-                        <h2>Top Deals on<br> Fashion</h2>
+                        <h2>Fashion Top<br>Deals</h2>
                         <a href="#"><button>VIEW ALL</button></a>
                     </div>
 
@@ -267,7 +271,7 @@
             </div>
 
             <div class="sub-products" align="center">
-                <img src="image/fashion/shorts.webp" alt="shorts" title="55-80%" height="187px" width="155px"><br><br>
+                <img src="image/lengha1.webp" alt="lengha1" title="55-80%" height="187px" width="155px"><br><br>
                 <span class="product-brand">Nike,ADDIDAS,Rebok...</span>
                 <br>
                 <span class="product-offers">55-80%</span>
@@ -275,7 +279,7 @@
                 <span class="product-info">Short,Trackpants,Tracksuits</span>
             </div>
             <div class="sub-products" align="center">
-                <img src="image/fashion/addidas.webp" alt="addidas" title="50%" height="187px" width="155px"><br><br>
+                <img src="image/lengha2.webp" alt="lengha2" title="50%" height="187px" width="155px"><br><br>
                 <span class="product-brand">ADDIDAS,PUMA...</span>
                 <br>
                 <span class="product-offers">50%</span>
@@ -283,7 +287,7 @@
                 <span class="product-info">Sport Shoes</span>
             </div>
             <div class="sub-products" align="center">
-                <img src="image/fashion/woodland.webp" alt="woodland" title="50%" height="187px" width="155px"><br><br>
+                <img src="image/lengha3.webp" alt="lengha3" title="50%" height="187px" width="155px"><br><br>
                 <span class="product-brand">Woodland,Crocs...</span>
                 <br>
                 <span class="product-offers">50%</span>
@@ -292,7 +296,7 @@
             </div>
 
             <div class="sub-products" align="center">
-                <img src="image/fashion/arrow.webp" alt="arrow" title="75%" height="187px" width="155px"><br><br>
+                <img src="image/lengha4.webp" alt="lengha4" title="75%" height="187px" width="155px"><br><br>
                 <span class="product-brand">Arrow,Wrangler,USPA...</span>
                 <br>
                 <span class="product-offers">75%</span>
@@ -301,7 +305,7 @@
             </div>
 
             <div class="sub-products" align="center">
-                <img src="image/fashion/us-polo.webp" alt="us-polo" title="50%" height="187px" width="155px"><br><br>
+                <img src="image/lengha5.webp" alt="lengha5" title="50%" height="187px" width="155px"><br><br>
                 <span class="product-brand">US Polo Assn.,Levi's...</span>
                 <br>
                 <span class="product-offers">50%</span>
@@ -309,74 +313,7 @@
                 <span class="product-info">Sneakers,Loafer&More</span>
             </div>
             <div class="sub-products" align="center">
-                <img src="image/fashion/kids-clothong.webp" alt="kids" title="60%" height="187px" width="155px"><br><br>
-                <span class="product-brand">Kids'clothing</span>
-                <br>
-                <span class="product-offers">60%</span>
-                <br>
-                <span class="product-info">US Polo,Provogue&more</span>
-            </div>
-
-        </div>
-        <br>
-        <div class="product-container">
-            <div class="left-advertisment">
-                <div class="left-bar" align="center">
-                    <div>
-                        <h2>Top Deals on<br> Fashion</h2>
-                        <a href="#"><button>VIEW ALL</button></a>
-                    </div>
-
-                </div>
-                <div class="left-bar-img">
-                    <img src="image/light-purple-background-kdd7g.webp" height="84px" width="240.5px">
-                </div>
-            </div>
-
-            <div class="sub-products" align="center">
-                <img src="image/fashion/shorts.webp" alt="shorts" title="55-80%" height="187px" width="155px"><br><br>
-                <span class="product-brand">Nike,ADDIDAS,Rebok...</span>
-                <br>
-                <span class="product-offers">55-80%</span>
-                <br>
-                <span class="product-info">Short,Trackpants,Tracksuits</span>
-            </div>
-            <div class="sub-products" align="center">
-                <img src="image/fashion/addidas.webp" alt="addidas" title="50%" height="187px" width="155px"><br><br>
-                <span class="product-brand">ADDIDAS,PUMA...</span>
-                <br>
-                <span class="product-offers">50%</span>
-                <br>
-                <span class="product-info">Sport Shoes</span>
-            </div>
-            <div class="sub-products" align="center">
-                <img src="image/fashion/woodland.webp" alt="woodland" title="50%" height="187px" width="155px"><br><br>
-                <span class="product-brand">Woodland,Crocs...</span>
-                <br>
-                <span class="product-offers">50%</span>
-                <br>
-                <span class="product-info">Outdoor Shoes</span>
-            </div>
-
-            <div class="sub-products" align="center">
-                <img src="image/fashion/arrow.webp" alt="arrow" title="75%" height="187px" width="155px"><br><br>
-                <span class="product-brand">Arrow,Wrangler,USPA...</span>
-                <br>
-                <span class="product-offers">75%</span>
-                <br>
-                <span class="product-info">Shirts,Sweatshirt</span>
-            </div>
-
-            <div class="sub-products" align="center">
-                <img src="image/fashion/us-polo.webp" alt="us-polo" title="50%" height="187px" width="155px"><br><br>
-                <span class="product-brand">US Polo Assn.,Levi's...</span>
-                <br>
-                <span class="product-offers">50%</span>
-                <br>
-                <span class="product-info">Sneakers,Loafer&More</span>
-            </div>
-            <div class="sub-products" align="center">
-                <img src="image/fashion/kids-clothong.webp" alt="kids" title="60%" height="187px" width="155px"><br><br>
+                <img src="image/lengha6.webp" alt="lengha6" title="60%" height="187px" width="155px"><br><br>
                 <span class="product-brand">Kids'clothing</span>
                 <br>
                 <span class="product-offers">60%</span>
@@ -387,11 +324,12 @@
         </div>
         <br>
 
+        <!-- Best of shirt -->
         <div class="product-container">
             <div class="left-advertisment">
                 <div class="left-bar" align="center">
                     <div>
-                        <h2>Top Deals on<br> Fashion</h2>
+                        <h2>Best of<br> Shirt's</h2>
                         <a href="#"><button>VIEW ALL</button></a>
                     </div>
 
@@ -402,7 +340,7 @@
             </div>
 
             <div class="sub-products" align="center">
-                <img src="image/fashion/shorts.webp" alt="shorts" title="55-80%" height="187px" width="155px"><br><br>
+                <img src="image/shirts/shirt1.webp" alt="shirt1" title="55-80%" height="187px" width="155px"><br><br>
                 <span class="product-brand">Nike,ADDIDAS,Rebok...</span>
                 <br>
                 <span class="product-offers">55-80%</span>
@@ -410,7 +348,7 @@
                 <span class="product-info">Short,Trackpants,Tracksuits</span>
             </div>
             <div class="sub-products" align="center">
-                <img src="image/fashion/addidas.webp" alt="addidas" title="50%" height="187px" width="155px"><br><br>
+                <img src="image/shirts/shirt2.webp" alt="shirt2" title="50%" height="187px" width="155px"><br><br>
                 <span class="product-brand">ADDIDAS,PUMA...</span>
                 <br>
                 <span class="product-offers">50%</span>
@@ -418,7 +356,7 @@
                 <span class="product-info">Sport Shoes</span>
             </div>
             <div class="sub-products" align="center">
-                <img src="image/fashion/woodland.webp" alt="woodland" title="50%" height="187px" width="155px"><br><br>
+                <img src="image/shirts/shirt3.webp" alt="shirt3" title="50%" height="187px" width="155px"><br><br>
                 <span class="product-brand">Woodland,Crocs...</span>
                 <br>
                 <span class="product-offers">50%</span>
@@ -427,7 +365,7 @@
             </div>
 
             <div class="sub-products" align="center">
-                <img src="image/fashion/arrow.webp" alt="arrow" title="75%" height="187px" width="155px"><br><br>
+                <img src="image/shirts/shirt4.webp" alt="shirt4" title="75%" height="187px" width="155px"><br><br>
                 <span class="product-brand">Arrow,Wrangler,USPA...</span>
                 <br>
                 <span class="product-offers">75%</span>
@@ -436,7 +374,7 @@
             </div>
 
             <div class="sub-products" align="center">
-                <img src="image/fashion/us-polo.webp" alt="us-polo" title="50%" height="187px" width="155px"><br><br>
+                <img src="image/shirts/shirt5.webp" alt="shirt5" title="50%" height="187px" width="155px"><br><br>
                 <span class="product-brand">US Polo Assn.,Levi's...</span>
                 <br>
                 <span class="product-offers">50%</span>
@@ -444,7 +382,76 @@
                 <span class="product-info">Sneakers,Loafer&More</span>
             </div>
             <div class="sub-products" align="center">
-                <img src="image/fashion/kids-clothong.webp" alt="kids" title="60%" height="187px" width="155px"><br><br>
+                <img src="image/shirts/shirt6.webp" alt="shirt6" title="60%" height="187px" width="155px"><br><br>
+                <span class="product-brand">Kids'clothing</span>
+                <br>
+                <span class="product-offers">60%</span>
+                <br>
+                <span class="product-info">US Polo,Provogue&more</span>
+            </div>
+
+        </div>
+        <br>
+        
+        <!-- BEST OF TSHIRTS -->
+        <div class="product-container">
+            <div class="left-advertisment">
+                <div class="left-bar" align="center">
+                    <div>
+                        <h2>Best of<br> T-Shirt's</h2>
+                        <a href="#"><button>VIEW ALL</button></a>
+                    </div>
+
+                </div>
+                <div class="left-bar-img">
+                    <img src="image/light-purple-background-kdd7g.webp" height="84px" width="240.5px">
+                </div>
+            </div>
+
+            <div class="sub-products" align="center">
+                <img src="image/tshirts/t-shirt1.webp" alt="t-shirt1" title="55-80%" height="187px" width="155px"><br><br>
+                <span class="product-brand">Nike,ADDIDAS,Rebok...</span>
+                <br>
+                <span class="product-offers">55-80%</span>
+                <br>
+                <span class="product-info">Short,Trackpants,Tracksuits</span>
+            </div>
+            <div class="sub-products" align="center">
+                <img src="image/tshirts/t-shirt2.webp" alt="t-shirt2" title="50%" height="187px" width="155px"><br><br>
+                <span class="product-brand">ADDIDAS,PUMA...</span>
+                <br>
+                <span class="product-offers">50%</span>
+                <br>
+                <span class="product-info">Sport Shoes</span>
+            </div>
+            <div class="sub-products" align="center">
+                <img src="image/tshirts/t-shirt3.webp" alt="t-shirt3" title="50%" height="187px" width="155px"><br><br>
+                <span class="product-brand">Woodland,Crocs...</span>
+                <br>
+                <span class="product-offers">50%</span>
+                <br>
+                <span class="product-info">Outdoor Shoes</span>
+            </div>
+
+            <div class="sub-products" align="center">
+                <img src="image/tshirts/t-shirt4.webp" alt="t-shirt4" title="75%" height="187px" width="155px"><br><br>
+                <span class="product-brand">Arrow,Wrangler,USPA...</span>
+                <br>
+                <span class="product-offers">75%</span>
+                <br>
+                <span class="product-info">Shirts,Sweatshirt</span>
+            </div>
+
+            <div class="sub-products" align="center">
+                <img src="image/tshirts/t-shirt5.webp" alt="t-shirt5" title="50%" height="187px" width="155px"><br><br>
+                <span class="product-brand">US Polo Assn.,Levi's...</span>
+                <br>
+                <span class="product-offers">50%</span>
+                <br>
+                <span class="product-info">Sneakers,Loafer&More</span>
+            </div>
+            <div class="sub-products" align="center">
+                <img src="image/tshirts/t-shirt6.webp" alt="t-shirt6" title="60%" height="187px" width="155px"><br><br>
                 <span class="product-brand">Kids'clothing</span>
                 <br>
                 <span class="product-offers">60%</span>
@@ -490,7 +497,7 @@
                     <a href="#">New to Flipkart?Create an account</a>
                 </div>
             </div>
-            <span class="fa fa-times"></span>
+            <i class="fa fa-times"></i>
         </div>
     </div>
 
@@ -504,7 +511,7 @@
 
             <ul>
                 <li><span></span>ABOUT</span></li><br>
-                <a href="#">
+                <a href="contact-us-form.html">
                     <li>Contact Us</li>
                 </a>
                 <a href="#">
@@ -656,7 +663,15 @@
     </div>
 
     <div class="footer-adv">
-
+        <ul>
+            
+            <li><i class="fa fa-briefcase" aria-hidden="true"></i>Become a Seller</li>
+            <li><i class="fa fa-star" aria-hidden="true"></i>Advertise</li>
+            <li><i class="fa fa-gift" aria-hidden="true"></i>Gift Cards</li>
+            <li><i class="fa fa-question-circle" aria-hidden="true"></i>Help Center</li>
+            <li><i class="fa fa-copyright" aria-hidden="true"></i>2007-2023 Flipkart.com</li>
+            <li></li>
+        </ul>
     </div>
 
 

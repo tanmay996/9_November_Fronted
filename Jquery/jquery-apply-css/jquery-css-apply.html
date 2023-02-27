@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <!-- applying css through jquery for single property -->
+    <!-- <script>
+        $(document).ready(function(){
+            $("div h1").click(function(){
+           $("div").css("background-color","red")
+            })
+        })
+    </script> -->
+
+
+        <!-- applying css through jquery for multiple property -->
+    <script>
+        $(document).ready(function(){
+            $("div h1").click(function(){
+           $("div").css({"background-color":"red","color":"white"})
+            })
+
+        })
+    </script>
+    <style>
+        div{
+            width: 500px;
+            height: 500px;
+            margin:auto;
+            background-color:aqua;
+        }
+        div h1{
+            margin:0;
+            padding: 0;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+        <div>
+            <h1>CLICK ME<BR><br>FOR CHANGE BACKGROUND COLOR</h1>
+        </div>
+
+
+</body>
+</html>

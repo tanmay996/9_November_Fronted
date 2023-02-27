@@ -137,19 +137,21 @@ body{
     margin-left:7%;
 }
 /* Slider stylesheet */
-.slider{
+.product-container-slider{
+    height: 300px;
+    width:85%;
+    margin-left:7%;
     background-color:purple;
- 
 }
 .slide{
-
-  margin:auto;
-
+   
+    margin:auto;
 }
 #slide img{
+    margin-top: 10px;
     height: 280px;
     width:1600px;
- 
+  
 }
 .left-advertisment{
     height:100%;
@@ -193,7 +195,7 @@ body{
     height: 300px;
     background-color: #172337;  
     display:flex;
-    
+    border-bottom: 1px solid lightslategray;
 }
 .footer-about{
     
@@ -202,6 +204,7 @@ body{
     padding-top: 30px;
     padding-left:5px;
     margin-left: 10px;
+   
     font-family: 'Mukta', sans-serif;
 }
 .footer-about ul{
@@ -231,8 +234,22 @@ body{
 }
 .footer-adv{
     width:100%;
-    height:75px;
+    height:auto;
     background-color: #172337;
+}
+.footer-adv ul{
+    margin: 0px;
+    /* background-color: #6f8e3c; */
+    padding: 20px;
+}
+.footer-adv ul i{
+    margin-right: 10px;
+    color: gold;
+}
+.footer-adv ul li{
+    color: #fff;
+    margin-left: 100px;
+    display: inline-block;
 }
 .footer-about ul p a{
     color:#2874f0;
@@ -335,17 +352,20 @@ body{
 }
 .fa-times{
     color: white;
-    font-size: xx-large;
+    font-weight: 100;
+    font-size: 40px;
 }
 .fashion-menu{
     display: none;
     width: 250px;
-    height: auto;   
-    z-index: 5 !important;
+    height: auto;  
+   
+    margin-top: 10px;
+    z-index: 10 !important;
     background-color: pink;
 }
 .fashion-menu li{
- 
+    
     margin-bottom:10px;
     
     list-style-type: none;
@@ -381,4 +401,88 @@ body{
 }
 .footer-about a:hover{
     text-decoration: underline;
+}
+
+
+
+
+/* contact-us-form */
+.contact-us-form{
+    width: 100%;
+    height: auto;
+    padding: 100px 0px 180px 370px;
+   
+    
+}
+.contact-us-form button{
+    padding: 10px;
+    border: none;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 17px;
+    background-color: #2874f0;
+}
+.contact-us-form button i{
+    margin-left: 5px
+}
+.contact-us-form h1{
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: green;
+   
+}
+.contact-us-form hr{
+    margin: 0;
+    padding: 0;
+    width: 1200px;
+    background-color: #2874f0;
+}
+.address{
+    width: 1160px;
+    height: 500px;
+    
+}
+.address-map{
+    width: 45%;
+    height: 500px;
+    float: left;
+    
+}
+.contact-form{
+    width: 55%;
+    height: 500px;
+    float: left;
+   
+}
+.address-map span{
+    color: green;
+}
+.contact-form input ,
+.contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border-bottom: solid 1px #2874f0;
+}
+
+.send-btn{
+    
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color: #2874f0;
+}
+.reset-btn{
+    padding: 20px;
+    color: #fff;
+    border-radius: 10px;
+    background-color:red;
 }

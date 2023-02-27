@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- ERROR -->
+    <!-- <script>   
+        var a = document.getElementById("num1").value;
+        var b = document.getElementById("num2").value;
+        function max()
+        {
+           
+           console.log(b);
+           
+        }
+    </script> -->
+
+    <script>   
+            var a = document.getElementById("num1").value;
+            var b = document.getElementById("num2").value;
+            var c = document.getElementById("num3").value;
+        function max()
+        {
+            
+            if(a > b  && a > c)
+            {
+                document.getElementById("result").innerHTML="n1 is max";
+            }
+            else if(b > a && b > c)
+            {
+                document.getElementById("result").innerHTML="n2 is max";
+            }
+            else if(c > a && c > b)
+            {
+                document.getElementById("result").innerHTML="n3 is max";
+            }
+            
+           
+        }
+    </script>
+
+   
+    
+</head>
+<body>
+    <center>
+
+        <h1>Find max number </h1>
+        <label>Enter 1st value</label>
+        <input type="number" id="num1">
+        <br><br>
+         <label>Enter 2st value</label>
+        <input type="number" id="num2">
+        <br><br>
+        <label>Enter 3rd value</label>
+        <input type="number" id="num3">
+        <br><br>
+        
+        <button onclick="max()">check max value</button>
+        <br><br>
+        <p id="result"></p>
+
+    </center>
+ 
+</body>
+</html>
+
+<!-- <script>   
+    var a = 1;
+    var b = 2;
+    function max()
+    {
+       
+       console.log(a);
+       
+    }
+</script> -->
+
+
+
