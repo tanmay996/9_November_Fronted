@@ -1,0 +1,43 @@
+body{
+    margin:0;
+    padding:0;
+}
+.header div{
+    background-color:black;
+}
+.header ul{
+    margin:0;
+    padding:0;
+   
+}
+.header ul li{
+    list-style: none;
+    width: 16%;
+    padding: 0.2% 0px;
+    border-right: 1px solid #464444;
+    display: inline-block;
+}
+.header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.header ul li i{
+     color: #2fdab8;
+     margin-right: 4%;
+}
+
+.navbars{
+    background-color: black;
+}
+.navbars ul{
+    margin:0;
+    padding:0;
+}
+
+.navbars ul li{
+    display: inline-block;
+}
+.navbars ul li a{
+    color: #fff;
+    text-decoration: none;
+}

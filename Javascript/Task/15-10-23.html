@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main-section{
+            width: 50%;
+            height: 100vh;
+            margin:0px auto;        
+            background-color: burlywood;
+        }
+        h1{
+            text-align: center;
+        }
+        th{
+            text-align: left;
+        }
+        table{
+            width: fit-content;
+            margin:0px auto;        
+
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main-section">
+        <h1>Javascript Task</h1>
+        <table>
+            <tr>
+                <th>Calculate area of square</th>
+            </tr>
+            <tr>
+                <td>Enter side value</td>
+                <td><input value="0" id="square"></td>
+                <td><button onclick="square()">CALCULATE</button></td>
+            </tr>
+            <tr>
+                <th>Calculare area of circle</th>
+            </tr>
+            <tr>
+                <td>Enter radius</td>
+                <td> <input value="0" id="radius"> </td>
+                <td> <button onclick="radius()">CALCULATE</button></li></td>
+            </tr>
+
+            <tr>
+                <th>Calculare area of triangle</th>
+            </tr>
+            <tr>
+                <td>Enter height</td>
+                <td> <input value="0" id="height"> </td>
+            </tr>
+            <tr>
+                <td>Enter base</td>
+                <td> <input value="0" id="base"> </td>
+                <td> <button onclick="triangle()">CALCULATE</button></li></td>
+            </tr>
+            <tr>
+                <th>Calculate Average marks</th>
+            </tr>
+            <tr>
+                <td>Enter Maths marks</td>
+                <td><input value="0" id="math"></td>
+            </tr>
+            <tr>
+                <td>Enter Chemistry marks</td>
+                <td><input value="0" id="chem"></td>
+            </tr>
+            <tr>
+                <td>Enter Computer marks</td>
+                <td><input value="0" id="com"></td>
+                <td><button onclick="average()">CALCULATE</button></td>
+            </tr>
+
+            <tr>
+                <th>Calculate Simple Intrest</th>
+            </tr>
+            <tr>
+                <td>Enter Total amount</td>
+                <td><input value="0" id="amount"></td>
+            </tr>
+            <tr>
+                <td>Enter rate</td>
+                <td><input value="0" id="rate"></td>
+            </tr>
+            <tr>
+                <td>Enter time</td>
+                <td><input value="0" id="time"></td>
+                <td><button onclick="si()">CALCULATE</button></td>
+            </tr>
+
+        </table>
+    </div>
+    <script>
+        function square(){
+            var square = document.getElementById("square").value;
+            var result = square * square;
+            alert("square of "+square+" is "+result);
+        }
+        function radius(){
+            const pi = 3.14;
+            var radius = document.getElementById("radius").value;
+            var area = pi * radius *radius;
+            alert("area of circle is "+area);
+        }
+        function triangle(){
+            var height = document.getElementById("height").value;
+            var base = document.getElementById("base").value;
+            var area = 0.5 * height * base ;
+            alert("area of triangle is "+ area);
+        }
+        function average(){
+            var math = parseInt(document.getElementById("math").value);
+            var chem = parseInt(document.getElementById("chem").value);
+            var com =  parseInt(document.getElementById("com").value);
+            var average = (math+chem+com)/3;
+            alert("Average of 3 subject is "+ average);
+        }
+        function si(){
+            var amount = parseInt(document.getElementById("amount").value);
+            var rate = parseInt(document.getElementById("rate").value);
+            var time =  parseInt(document.getElementById("time").value);
+            var si = (amount * rate * time)/100;
+            alert("Simple intrest is "+ si);
+        }
+        
+     
+    </script>
+</body>
+</html>
+

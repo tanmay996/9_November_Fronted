@@ -1,0 +1,622 @@
+body{
+    box-sizing: border-box !important;
+   
+}
+
+.header{
+    width: 100%;
+    padding-left: 12%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.header-content{
+    left: 10%;
+    width: 85% !important;
+}
+.header-content li:hover{
+    color: #a99368;
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+.header-content button{
+    background-color: #a99368;
+}
+ .carousel-item img{
+    height: 100vh;
+ }
+.carousel-indicators button{
+    width:13px !important;
+    height:13px !important;
+    border-radius: 50%;
+    background-color: transparent !important;
+    border:2px solid #a99368 !important;
+}
+.carousel-indicators .active{
+    background-color: #000000 !important;
+}
+.carousel-item img{
+    filter: brightness(60%) !important;
+}
+.carousel-caption{
+  bottom: 43%;
+}
+.carousel-caption h1{
+    color: #a99368;
+    font-size: 50px;
+    text-shadow: 0px 0px 2px #000000;
+}
+.carousel-caption span{
+    font-size: 30px;
+    
+} 
+
+
+/* Lifestyle style start here */
+.lifestyle{
+    width: 60%;
+}
+.lifestyle span
+{
+    color: #a99368;
+}
+.lifestyle p
+{
+    color: #aeaeae;
+}
+
+.lifestyle hr,
+.amenties hr,
+.Walkthrough hr,
+.gallery hr,
+.specifications hr
+{
+    width: 7%;
+    height: 2px;
+    color: #ffcc00;
+}
+/* amenties style start here */
+
+.amenties{
+    width: 100%;
+    height: auto;
+    background-color: #0F1113;
+}
+.amenities-content{
+   
+    cursor: pointer;
+}
+.amenities-circle
+{
+    width: 6vw;
+}
+
+.amenities-img{
+    width: 3.6vw;
+    margin-top: 7%; 
+}
+
+.gallery-modal{
+    margin-top: 10%;
+}
+ /* gallery style start here */
+ .gallery{
+    width: 100%;
+    background-color: #0F1113;
+ }
+ .gallery-content{
+    cursor: pointer;
+ }
+ .gallery-content:hover  .gallery-img img{
+   filter: brightness(50%);
+
+ }
+ .gallery-content:hover .gallery-img span{
+   opacity: 1 !important;
+   top:55%;
+ }
+ .gallery-content:hover .gallery-img i{
+    opacity: 1 !important;
+    top:35%;
+  }
+ 
+ .gallery-img span{
+    left: 0;
+    z-index: 50 !important;
+    font-weight: 600;
+    top:60%;
+    font-size: 20px;
+    /* margin-left: 35%;  */
+    color: white;
+    opacity: 0;
+    transition: 0.5s ease all;
+ }
+ .gallery-img i{
+    left: 0;
+     top:30%;
+     padding: 2.5% 3.5%;
+     font-size: 18px;
+     border-radius: 50%;
+     color: white; 
+     margin-left: 43%;
+     margin-bottom: 30%;
+
+     z-index: 50 !important;
+     background-color: #a99368;
+    opacity: 0;
+    transition: 0.5s ease all;
+ }
+ .overlay-border{
+    width: 90%;
+    height: 27.4vh;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    margin: 5%;
+    display: none;
+    border: 1px solid #fff;
+    transition: 10s ease all !important;
+ }
+ .overlay-border1{
+    width: 90%;
+    height: 38vh;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    margin: 5%;
+    display: none;
+    border: 1px solid #fff;
+    transition: 10s ease all !important;
+ }
+ .gallery-content:hover .overlay-border{
+    display: block;
+   
+ }
+ .gallery-content:hover .overlay-border1{
+    display: block;
+   
+ }
+ .layout-secction{
+    display: none;
+ }
+
+ .btn-view{
+    border: none;
+    padding: 0.7% 1.5%;
+    border-top: 2px none #fff;
+    border-bottom: 2px none #fff;
+    background-color: #a99368;
+ }
+ .btn-layout{
+    border: none;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    padding: 0.6% 0.5%;
+    background-color: #0F1113;
+ }
+
+ /* Specification section start here */
+ .specifications-content{
+    width: 70%;
+    margin: auto;
+}
+
+
+.cell-right {
+    text-align: center;
+   
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.testimonial-name {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    color: #a99368;
+
+}
+.testimonial-content.quote {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.owl-buttons{
+    display: none;
+}
+/* Walkthrough style start here */
+.Walkthrough{
+    width: 100%;
+    height: auto;
+    padding: 5% 10%;
+    
+}
+.Walkthrough iframe{
+    width: 75%;
+    height: 55vh;
+    display:block;
+    margin: auto;
+}
+/* Download Brochure style start here */
+.brochure{
+    width: 100%;
+    height:auto;
+    padding: 5%;
+    background: url('../image/download_bg.jpg');
+    background-attachment: fixed;
+}
+.brochure-content{
+    width: 35%;
+    height: 50vh;
+    padding:2% 2% 0%;
+    border: 5px solid #a99368;
+}
+.brochure hr{
+    width: 30%;
+    height: 4px;
+    background-color: #85724c;
+}
+.brochure-input{
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #a99368;
+}   
+.brochure-input input{
+    width: 92%;
+    border: none;
+    outline: none;
+    
+}
+
+.brochure-icon{
+    height: 4vh;
+    width: 6.7%;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    padding:1% 1.7%;
+    background-color: #a99368;
+}
+.brochure-submit{
+    border: none;
+    background-color: #a99368;
+}
+
+.brochure-content img{
+    margin: 5% 15%;
+
+}
+iframe{
+    width:70%;
+     height:350px;
+     border: 5px solid #a99368 !important;
+   
+}
+.copyright{
+    background-color: #a99368;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    
+    .header{
+       
+        z-index: 50;
+        border-bottom: 1px solid #a99368;
+        background-color: rgba(0, 0, 0, 1) !important;
+    }
+    .carousel-item img{
+        height: 40vh;
+     }
+     #carouselExampleDark{
+        padding-top: 13%;
+    }
+  
+
+    .carousel-caption{
+        bottom:5%;
+      }
+
+    .carousel-caption h1{     
+        font-size: 20px;     
+    }
+
+    .carousel-caption span{
+        font-size: 10px;  
+    }
+    .carousel-indicators button{
+        width:8px !important;
+        height:8px !important;
+       
+    } 
+   
+    .amenities-circle
+    {
+        width: 35vw;
+    }
+    
+    .amenities-img{
+        width: 20vw;
+        margin-top: 8%;
+      
+        margin-left: 2.5%; 
+    }
+    
+
+    .lifestyle{
+        width: 100%;
+    }
+ /* gallery style start here */
+    .gallery-img img{
+        filter: brightness(50%);
+     
+      }
+      .gallery-img span,
+      .gallery-img i{
+        z-index: 5 !important;
+        opacity: 1;
+      }
+    /* Walkthrough style start here */
+    .Walkthrough{
+
+    padding: 5% 0%;
+    
+}
+.Walkthrough #carouselExampleDark{
+    padding-top: 2% !important;
+}
+
+     /* Download Brochure style start here */
+     .brochure{
+        width: 100%;
+        height:auto;
+        padding: 20%;
+        background-size:cover;
+    }
+    .brochure-content{
+        width: 100% ;
+        height: auto;
+        padding:2% 2% 3%;
+       
+    }
+    .brochure-icon{
+        height: 4vh;
+        width: 13%;
+        font-size: 13px;
+        padding:0% 1.7%;
+    }
+    .brochure-input{
+        width: 90%;
+        margin: auto;
+    }  
+    .brochure-input input{
+        width: 80%;
+    }
+    .gallery-modal{
+        margin-top: 35%;
+    }
+
+    iframe{
+        width:295px;
+         height:200px;
+         margin-left: 8%;
+         border: 5px solid #a99368 !important;
+       
+    }
+}
+@media only screen and (min-width:481px) and (max-width:765px){
+    .header{
+        border-bottom: 1px solid #a99368;
+        background-color: rgba(0, 0, 0, 1) !important;
+    }
+    #carouselExampleDark{
+        padding-top: 12%;
+    }
+    .carousel-item img{
+        height: 50vh;
+     }
+    .carousel-caption h1{     
+        font-size: 20px;     
+    }
+    .carousel-caption span{
+        font-size: 10px;  
+    }
+    .carousel-indicators button{
+        width:8px !important;
+        height:8px !important;
+       
+    }
+    .carousel-caption{
+        bottom:30%;
+      }
+      .lifestyle{
+        width: 100%;
+    }
+    .amenities-circle
+    {
+        width: 30vw;
+    }
+    
+    .amenities-img{
+        width: 25%;
+        margin-top: 5%; 
+       
+        
+    }
+    .amenities-img{
+        width:100px;
+        height: 85px;
+       margin-left: 0%;
+        margin-top: 8%;
+       
+    }
+    .amenities-img img{
+        width: 100%;
+        height: 100%;
+    }
+    
+
+      /* Walkthrough style start here */
+      .Walkthrough{
+
+        padding: 5% 0%;
+        
+    }
+    .Walkthrough #carouselExampleDark{
+        padding-top: 2% !important;
+    }
+     /* Download Brochure style start here */
+     .brochure{
+        background-size:cover;
+    }
+    .brochure-content{
+        width: 75% ;
+        height: auto;
+        margin: auto;
+        padding:2% 2% 2%;
+       
+    }
+    .brochure img{
+        width: 70%;
+        margin-left: 15% !important;
+    }
+
+    .brochure-icon{
+        height: 6vh;
+        width:6.5%;
+        font-size: 13px;
+        padding:1% 1%;
+    }
+  
+    .gallery-modal{
+        margin-top: 30%;
+    }
+    iframe{
+      margin-left: 15%;
+      width:70%;
+    }
+
+}
+@media only screen and (min-width:768px)and (max-width:1200px){
+    .header-content li{
+        font-size: 11px;
+    }
+    
+
+    .carousel-caption{
+        bottom:30%;
+      }
+
+    .carousel-caption h1{     
+        font-size: 30px;     
+    }
+
+    .carousel-caption span{
+        font-size: 15px;  
+    }
+    .carousel-item img{
+        height: 100vh;
+    } 
+    .lifestyle{
+        width: 80%;
+    }
+    .amenities-circle
+    {
+        width: 13vw;
+    }
+
+    .amenities-img{
+        width: 8vw;
+       
+        margin-top: 15%; 
+    }
+    .gallery-modal{
+        margin-top: 20%;
+    }
+    
+    
+     /* Walkthrough style start here */
+     .Walkthrough{
+
+        padding: 5% 0%;
+        
+    }
+    .Walkthrough #carouselExampleDark{
+        padding-top: 2% !important;
+    }
+
+/* Download Brochure style start here */
+.brochure{
+    background-size:cover;
+}
+.brochure-content{
+    width: 60%;
+    height: auto;
+    padding:2% 4%;
+    border: 5px solid #a99368;
+}
+.brochure-icon{
+    height: 4vh;
+    width:6.5%;
+    font-size: 12px;
+    padding:1% 1.5%;
+    background-color: #a99368;
+}
+.brochure-content img{
+    left: 20%;
+    bottom:0;
+}
+
+    iframe{
+        margin-left: 15%;
+         
+      }
+}
+
+@media only screen and (min-width:1201px) and (max-width:1444px){
+    .header-content li{
+        font-size: 13px;
+    }
+    .amenties{
+        width: 100%;
+        height: auto;
+        background-color: #0F1113;
+    }
+    .amenities-content{
+       
+        cursor: pointer;
+    }
+    .amenities-circle
+    {
+        width: 6vw;
+    }
+    /* Download Brochure style start here */
+.brochure{
+    background-size: cover;
+}
+.brochure-content{
+    width: 50%;
+    height: auto;
+    padding:2% 5% 0%;
+    border: 5px solid #a99368;
+}
+.brochure-icon{
+    height: 6vh;
+    width: 6.7%;
+    display: inline-block;
+    color: white;
+    font-size: 18px;
+    padding:1% 1.7%;
+    background-color: #a99368;
+}
+.brochure-content img{
+    left: 20%;
+    bottom:0;
+}
+.overlay-border{
+    height: 25.4vh;
+}
+.overlay-border1{
+    height:37vh;
+}
+   
+}

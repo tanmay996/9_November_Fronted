@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    max-width: 1100px;
+    margin:10px auto;
+    padding: 0px;
+    background-color: #000000;
+}
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 900;
+}
+.nav-item{
+    margin: 0px 20px;
+}
+.nav-item .nav-link{
+    /* color: #fff !important; */
+}
+.nav-item:after {
+	content: '';
+	display: block;
+	margin:5px auto 0px;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width 0.25s ease, background-color 0.25s ease;
+}
+.nav-item:hover:after{
+    width:100%;
+    background-color: #ffbd39;
+}
+.navbar .active{
+
+    color: #ffbd39 !important;
+}
+.navbar .btn{
+    display: none;
+}
+
+    /* Slidder section start here */
+    .slider{
+        max-width: 1100px;
+        margin:auto;
+    
+    }
+    .slider-content{
+        width: 100%;
+        height: 650px;
+        
+        /* position: relative; */
+    }
+    .slider-text{
+        /* max-width: 50% !important; */
+        
+        display: flex;
+        align-items: center;
+    }
+    .slider-text-hello{
+        font-size: 25px;
+    }
+
+    .slider-img img{
+        height: 100%;
+    }
+    .slider-content h1{
+        margin: 0;
+        padding: 0;
+        font-size: 75px;
+        color: #fff;
+        font-weight: 900;
+    }
+    .slider-content h2{
+        margin: 0;
+        padding: 0;
+        font-size: 65px;
+        color: #fff;
+
+    }
+
+    .slider-text span{
+    
+        color:#ffbd39 ;
+    }
+    .slider-text-btn{
+        margin: 25px 0px;
+    }
+    .slider-hire{
+        font-size: 12px;
+        font-weight: 600;
+        padding: 15px 24px;
+        border-radius: 40px;
+        text-decoration: none;
+        text-transform:uppercase;
+    }
+    .hire:hover{
+        color: #000000;
+    }
+    .my-work:hover{
+        color: #ffffff;
+    }
+    .hire{
+        color: #000000;
+        background-color: #ffbd39;
+    }
+    .my-work{
+        border: 1px solid #fff;
+        color: #ffffff;
+    
+    }
+.about-ovrly{
+    top: 0;
+    left: 0;
+    font-size: 7vw;
+
+}
+.about-heading{
+    font-size: 50px;
+    color: #fff;
+}
+.b
+{
+    width: 100%;
+    height: 500px;
+    background-color: #ffbd39;
+}
+.c{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+}
+@media (max-width:991px){
+    .nav-item{
+        margin: 0px 10px;
+    }
+}
+@media (max-width:767px)
+{
+    .navbar .btn{
+        display: block;
+    }
+    .slider-text{
+        position: absolute;
+        top: 25%;
+        /* background-color: #ffbd39; */
+        text-align: center;
+    }
+    .slider-img{
+        text-align: center;
+    }
+}
+@media  (max-width:575px){
+    
+    
+}
+
+
+
+
+
+

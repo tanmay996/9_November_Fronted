@@ -1,0 +1,14 @@
+$container:50%;
+$container-fluid:100%;
+$text-success:green;
+$margin-auto:0px auto;
+$bg-dark:black;
+$text-danger:red;
+$text-center:center;
+body{
+ background-color: $bg-dark;
+}
+h1{
+    color: $text-danger;
+    text-align: $text-center;
+}

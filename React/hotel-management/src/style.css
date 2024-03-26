@@ -1,0 +1,32 @@
+.main-layout{
+   background: url('./homebg.jpeg');
+   background-size:cover;
+   height: 100vh;
+   position: relative;
+}
+.login-section,
+.forgot-section{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+.logo{
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+.login-form{
+    width: 500px;
+}
+.login-btn,
+.submit-btn
+{
+    height: 50px !important;
+    width:250px !important;
+    font-size: 20px;
+    display: block;
+    margin: auto !important;
+    background-color: rgb(70, 224, 111);
+}
